@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {  margin: 0;
+     padding: 0;
+     font-family: Old Newspaper;
+     scroll-behavior: smooth;}
+
+@font-face {font-family: Old Newspaper;
+    src: url(fontes/oldnewspapertypes/OldNewspaperTypes.ttf);}
+
+
+body{background-color: #ffffff;
+     font-size: 20px;
+     color: #FBF2E2;
+     padding: 0 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right: 20px;
+     display: flex;
+     min-height: 100vh;
+     margin: 0;
+     gap: 30px;
+     list-style-type: none;
+     display: flex;
+     min-height: 100vh;
+     gap: 30px;}
+
+main{display: block;
+     margin-left: 25%;
+     width: 830px;
+     height: fit-content;
+     padding: 10px;
+     padding-top: 80.6px;
+     padding-bottom: 1px;
+}
+
+h1{  font-size: 35px;
+     text-align: center;
+     background-color: #16232E;
+     color: #ffffff;
+     border-radius: 10px;
+     padding: 10px;}
+
+img{ width: 790px;
+     margin: 0 auto;
+     border-radius: 5px;
+     min-width: 350px;
+     max-width: 900px;
+     display: flex;}
+
+
+h2{  text-align: center;
+     font-size: 25px;
+     color:  #ffffff;
+     background-color: #16232E;
+     border-radius: 10px;}
+
+h3{  text-align: center;}
+
+p{   text-align: justify;
+     color: #252627;
+     font-size: 18px;
+     text-align: initial;
+     font-weight: 600;
+     padding-left: 10px;}
+
+a{   color: #bb0f0f;
+     text-decoration: none;}
+
+
+.menu{   margin: 20px;
+         position: -webkit-sticky;
+         position: absolute;
+         line-height: 15px;
+         top: 81.9px;
+         left: 15px;
+         width: 300px;
+         text-align: center;
+         border-style: groove;
+         justify-content: center;
+         list-style: none;
+         border-radius: 5px;}
+
+.menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;}
+
+.menu li a:hover {background-color: #bb0f0f;}
+
+.menu a{
+             color: #16232E;
+             padding: 6px;
+             font-size: 14px;
+             font-weight: 900;
+             border-left: 4px solid #444;
+             }
+
+
+.menu li a{
+       display: block;
+       padding: 8px; 
+       border-left: 4px solid #444;
+       text-decoration: none;
+       box-shadow: 2px 2px 5px #ccc; 
+       color: #b91414; 
+       cursor: pointer;}
+
+
+.menu li a:hover{
+       display: block;
+       padding: 8px;
+       border-left: 4px solid #444;
+       text-decoration: none; 
+       box-shadow: 2px 2px 5px #ccc;
+       color: #6d0000;
+       cursor: pointer;}
+
+.menu li ul a:active{color: rgb(255, 0, 0);}
+
+
+
+.menu li a:hover {
+       border-left:4px solid #069;
+       background: #16232E;
+       border-radius: 5px;}
+
+ 
+section{ 
+       border-style: groove;
+       border-radius: 5px;
+       padding: 15px;}
+
+.menu-h {    
+           display: flex;
+           background-color: #16232E;
+           position: fixed;
+           top: 0;
+           left: 0;
+           height: 80px;
+           width: 100%;
+           justify-content: center;
+           z-index: 1;
+           
+}
+        
+.menu-h ul {max-width: 100%;
+            list-style: none;
+            padding: auto;
+            margin: auto;}
+        
+.menu-h ul li { text-align: center;
+                background-color: #16232E;}
+        
+.menu-h ul li a {    
+                     display: inline-block;
+                     text-decoration: none;
+                     text-align: center;
+                     padding: 20px;
+                     transition: 0.5s;
+                     color: #6d0000;
+                     font-size: 16px;
+                     font-weight: 900;
+                    line-height: 40px;}
+
+.menu-h li a:active{color: rgb(255, 0, 0);}
+        
+.menu-h li a:hover { 
+                    background-color: #164C45;}
+
+li > ul{display: none;}
+
+li:hover > ul{display: block;
+                    line-height: 35px;}
+
+li{line-height: 35px;}
+
+nav.menu-h ul.menu-h ul#integrantes li a{
+     font-size: 12.6px;
+     padding: auto;
+     width: 86.9px;}
+
+nav.menu-h ul.menu-h ul#discografia{
+     padding: auto;
+     margin: auto;}
+
+nav.menu-h ul.menu-h ul#discografia li a{
+     font-size: 12.6px;
+     padding: auto;
+     width: 86.9px;
+     line-height: 20px;}
+
+     nav.menu-h ul.menu-h ul li a{line-height: 20px;}
