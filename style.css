@@ -145,9 +145,7 @@ section{
 }
         
 .menu-h ul {max-width: 100%;
-            list-style: none;
-            padding: auto;
-            margin: auto;}
+            list-style: none;}
         
 .menu-h ul li { text-align: center;
                 background-color: #16232E;}
