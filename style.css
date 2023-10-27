@@ -32,6 +32,8 @@ body{
       min-height: 100vh;
       gap: 30px;}
 
+/*Menu Topo*/
+
 .menu-topo {    
       display: flex;
       background-color: var(--color3);
@@ -80,6 +82,8 @@ li{line-height: 35px;}
       width: 86.9px;}
 
 .menu-topo ul.menu-topo ul li a{line-height: 20px;}
+
+/*Menu Lateral*/
 
 .menu-lateral{   
       margin: 20px;
@@ -136,6 +140,8 @@ li{line-height: 35px;}
       border-left:4px solid var(--color7);
       background: var(--color3);
       border-radius: 5px;}
+
+/*Main*/
 
 main{ 
       display: block;
